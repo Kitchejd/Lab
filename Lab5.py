@@ -1,6 +1,9 @@
+days=int(input('Enter days: ')) * 24 * 3600
+months=int(input('Enter Month: ')) *12 *24 *3600
+years=int(input('Enter Year: ')) * 365 * 24 * 3600
 
-myBirthday = int(input("What is your birthday"))
+time = days + months + years
 
-SecondOld = str(int(myBirthday) * 31,536,000)
-print (SecondOld)
+
+print ('This is the time in seconds' , time)
                 
